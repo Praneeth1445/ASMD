@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Results screen preview</title>
+  <desc id="desc">Stylized preview of the validation results table.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#f1f5f9" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)" />
+  <rect x="54" y="40" width="1172" height="640" rx="20" fill="#ffffff" stroke="#dbe3ef" />
+  <rect x="54" y="40" width="1172" height="68" rx="20" fill="#f8fafc" />
+  <line x1="54" y1="108" x2="1226" y2="108" stroke="#dbe3ef" />
+  <g font-family="Inter, Arial, sans-serif" font-size="17" fill="#475569" font-weight="700">
+    <text x="82" y="82">Image</text>
+    <text x="270" y="82">Regulation</text>
+    <text x="450" y="82">Question Marks</text>
+    <text x="650" y="82">Calc. Total</text>
+    <text x="790" y="82">Written Total</text>
+    <text x="920" y="82">Bubble Total</text>
+    <text x="1040" y="82">Status</text>
+    <text x="1150" y="82">Remarks</text>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="16" fill="#334155">
+    <rect x="82" y="150" width="56" height="36" rx="8" fill="#fef3c7" />
+    <text x="106" y="173" text-anchor="middle">R23</text>
+    <rect x="450" y="144" width="84" height="28" rx="14" fill="#eef2ff" />
+    <text x="492" y="163" text-anchor="middle">Q1: 2</text>
+    <rect x="450" y="180" width="84" height="28" rx="14" fill="#eef2ff" />
+    <text x="492" y="199" text-anchor="middle">Q2: 0</text>
+    <text x="660" y="178" text-anchor="middle" font-size="28" font-weight="700">38</text>
+    <text x="804" y="178" text-anchor="middle" font-size="28" font-weight="700">38</text>
+    <text x="936" y="178" text-anchor="middle" font-size="28" font-weight="700">38</text>
+    <rect x="1020" y="146" width="110" height="34" rx="17" fill="#22c55e" />
+    <text x="1075" y="169" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">PASSED</text>
+    <text x="1158" y="171" font-size="15" fill="#64748b">All totals match</text>
+  </g>
+  <line x1="54" y1="340" x2="1226" y2="340" stroke="#e2e8f0" />
+  <g font-family="Inter, Arial, sans-serif" font-size="16" fill="#334155">
+    <rect x="82" y="382" width="56" height="36" rx="8" fill="#e2e8f0" />
+    <text x="106" y="405" text-anchor="middle">A3</text>
+    <rect x="450" y="376" width="84" height="28" rx="14" fill="#eef2ff" />
+    <text x="492" y="395" text-anchor="middle">Q1: 8</text>
+    <rect x="450" y="412" width="84" height="28" rx="14" fill="#eef2ff" />
+    <text x="492" y="431" text-anchor="middle">Q2: 0</text>
+    <text x="660" y="410" text-anchor="middle" font-size="28" font-weight="700">31</text>
+    <text x="804" y="410" text-anchor="middle" font-size="28" font-weight="700">31</text>
+    <text x="936" y="410" text-anchor="middle" font-size="28" font-weight="700">31</text>
+    <rect x="1020" y="378" width="110" height="34" rx="17" fill="#22c55e" />
+    <text x="1075" y="401" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">PASSED</text>
+    <text x="1158" y="403" font-size="15" fill="#64748b">All totals match</text>
+  </g>
+</svg>
